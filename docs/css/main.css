@@ -229,7 +229,7 @@ hr.red,
   }
   .portfolio__overlay:hover {
     opacity: 1;
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0,0,0,.85);
   }
   .portfolio__overlay h3 {
     padding-left: 25px;
@@ -242,7 +242,6 @@ hr.red,
     display: none;
   }
 }
-
 
 
 
