@@ -160,16 +160,17 @@ p a:hover {
   .section h2 {
     margin-left: -20px;
     text-align: left;
+    font-size: 2rem;
   }
 }
 
 .mast {
   margin: 35px 0;
-  min-height: 60px;
+  min-height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 hr {
   border-width: 4px;
@@ -213,10 +214,18 @@ hr.red,
 .portfolio__mobile hr {
   border-color: #a22b2b;
 }
+
 .portfolio__short b {
   text-decoration: underline;
 }
+
 @media screen and (min-width: 900px) {
+  header h1 {
+    font-size: 3rem;
+  }
+  header i {
+    font-size: 1rem;
+  }
   .portfolio__overlay {
     opacity: 0;
     width: 100%;
@@ -232,6 +241,8 @@ hr.red,
     background-color: rgba(0,0,0,.85);
   }
   .portfolio__overlay h3 {
+    font-size: 2rem;
+    max-width: 50%;
     padding-left: 25px;
   }
   .portfolio__overlay .portfolio__short{
@@ -242,7 +253,10 @@ hr.red,
     display: none;
   }
 }
-
+.hideme
+{
+    opacity:0;
+}
 
 
 
@@ -422,3 +436,4 @@ hr.red,
         page-break-after: avoid;
     }
 }
+

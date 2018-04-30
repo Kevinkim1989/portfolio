@@ -3,11 +3,9 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Kevin S Kim
 
 # THANKS
-
-    <name>
 
 # TECHNOLOGY COLOPHON
 
