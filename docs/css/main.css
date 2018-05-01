@@ -184,11 +184,18 @@ hr {
   }
 }
 header {
-  background: #eff1ff;
+  /* background: #eff1ff; */
+    background: #f7fbfc; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f7fbfc 0%, #d9edf2 40%, #add9e4 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#add9e4',GradientType=0 ); /* IE6-9 */
+   
 }
 header h1 {
   margin: 0;
   line-height: 1;
+  margin: 1rem 0;
 }
 header i {
   text-align: center;
@@ -218,6 +225,15 @@ hr.red,
 .portfolio__short b {
   text-decoration: underline;
 }
+.portfolio__short a {
+  text-decoration: underline;
+  text-align: center;
+  display: block;
+  margin-bottom: 25px;
+
+}
+
+
 
 @media screen and (min-width: 900px) {
   header h1 {
